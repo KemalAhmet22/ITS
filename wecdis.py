@@ -26,7 +26,7 @@ class Read:
                     print("Checksum Doğru")
 
 
-class VTG:
+class VTG:  #deneme
     def updateVTG(self, msg,msg2):
         print("Course over Ground True =", msg[1],msg[2])
 
